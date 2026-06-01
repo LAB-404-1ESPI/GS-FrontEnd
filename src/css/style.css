@@ -315,6 +315,12 @@ h2,h3{
     font-weight: 600;
 }
 
+.card3 h4{
+    color: var(--corsecao3);
+    font-weight: 600;
+    font-size: 30px;
+}
+
 .cardgrande3{
     background-color: var(--corbordaroxa);
     border: 3px solid var(--corsecao3);
@@ -331,14 +337,18 @@ h2,h3{
     font-weight: 600;
 }
 
+.cardgrande3 h4{
+    color: var(--corsecao3);
+    font-weight: 600;
+    font-size: 30px;
+}
+
 .cardgrande3:hover{
     transform: translateY(-10px);
     box-shadow:
     0 0 10px 2px var(--corsecao3),
     0 0 30px 10px var(--corbordaroxa);
 }
-
-
 
 .cardgrande4{
     background-color: var(--corbordaverde);
@@ -443,6 +453,8 @@ h2,h3{
     0 0 30px 10px var(--corbordalaranja);
 }
 
+
+
 .card6{
     background-color: var(--corbordavermelha);
     border: 3px solid var(--corsecao6);
@@ -489,11 +501,33 @@ h2,h3{
     0 0 30px 10px var(--corbordavermelha);
 }
 
+
 .icones{
     width:65px;
     background-color:rgb(46,35,202);
     border-radius:10px;
     border:2px solid rgb(11,0,165);
+}
+
+.icones4 {
+    width: 65px;
+    background-color: rgb(16, 112, 3);
+    border-radius: 10px;
+    border: 2px solid var(--corsecao4);
+}
+
+.icones5 {
+    width: 65px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 10px;
+    border: 2px solid var(--corsecao5);
+}
+
+.icones6 {
+    width: 65px;
+    background-color: rgb(153, 1, 90);
+    border-radius: 10px;
+    border: 2px solid var(--corsecao6);
 }
 
 .container2{
