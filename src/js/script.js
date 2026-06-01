@@ -8,3 +8,16 @@ window.addEventListener('scroll', () => {
         header.classList.remove('rolado'); 
     }
 });
+
+const btnMissao = document.getElementById("btnMissao");
+
+btnMissao.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    const elemento = document.getElementById("cor1");
+
+    window.scrollTo({
+        top: elemento.offsetTop - 100,
+        behavior: "smooth"
+    });
+});

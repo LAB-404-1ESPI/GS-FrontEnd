@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="icon" href="./src/assets/imgs/favicon.png" alt="Ícone da página">
     <!-- CSS EXTERNO -->
     <link rel="stylesheet" href="./src/css/style.css">
-
     <title>AstraSync AI</title>
 </head>
 <body>
     <header>
-        <img src="./src/assets/imgs/logo.png" class="logo" alt="Logo AstraSync">
+        <div class="logo-area">
+            <img src="./src/assets/imgs/logo.png" class="logo" alt="Logo AstraSync">
 
-        <div class="poppins-regular">
-            <h1>Astra <span id="titulosync1">Sync AI</span></h1>
+            <div class="poppins-regular">
+                <h1>Astra <span id="titulosync1">Sync AI</span></h1>
+            </div>
         </div>
 
         <div class="menu-hamburguer" id="menu-icone">
@@ -30,12 +31,7 @@
             <p class="texto-superior">Astra<span>Sync AI</span></p>
             <img src="./src/assets/imgs/logo.png" class="logo2" alt="Logo AstraSync">
             <p class="texto-inferior">Tecnologia inteligente para proteger vidas além da Terra</p>
-            <a href="#cor1"
-               class="btn-missao"
-               style="text-decoration: none;"
-               onclick="javascript:document.getElementById('cor1').scrollIntoView({behavior: 'smooth', block: 'start'}); return false;">
-               Nossa Missão
-            </a>
+            <a href="#" class="btn-missao" id="btnMissao">Nossa Missão</a>
         </div>
     </div>
 
@@ -75,10 +71,11 @@
         </div>
 
         <div class="container2">
+
             <div class="card1">
-                <h3>85%</h3>
-                <p>dos astronautas têm sintomas de ansiedade</p>
-            </div>
+            <h3>85%</h3>
+            <p>dos astronautas têm sintomas de ansiedade</p>
+        </div>
             <div class="card1">
                 <h3>43%</h3>
                 <p>desenvolvem sintomas de depressão</p>
@@ -96,31 +93,19 @@
         <h1 class="numh1" id="cor2">2. Tecnologia</h1>
         <h3 class="titulo-tech">Stack inteligente para o espaço.</h3>
         <div class="imagembg2">
-            <img src="./src/assets/imgs/imagembg2.png" class="imagembg" alt="Imagem de fundo">
-            <div class="container3">
-                
-                <div class="card2">
-                    <h2 class="card-ia">Inteligência Artificial</h2>
-                </div>
+            <div class="card1-secao2">
+                <h2 class="titulo-card1">Inteligência Artificial</h2>
+                <p class="texto-card1">O <span>AstraSync AI</span> utiliza Inteligência Artificial para análise contínua de dados vitais dos astronautas.</p>
             </div>
-            <div class="container3">
-                <div class="card2">
-                    <h2 class="card-software">Software</h2>
-                </div>
+            <div class="card2-secao2">
+                <h2 class="titulo-card2">Software</h2>
+                <p class="texto-card2">O software principal funciona em tempo real, processando dados críticos durante o voo da missão.</p>
             </div>
-            <div class="container3">
-                <div class="card2">
-                    <h2 class="card-sensor">Sensores</h2>
-                </div>
-            </div> 
-
-            <p class="texto-card texto-ia">O <span>AstraSync AI </span>utiliza Inteligência Artificial para análise contínua de dados vitais dos astronautas</p>
-            <p class="texto-card texto-software">O software principal funciona em tempo real, processando dados críticos durante o voo da missão</p>
-            <p class="texto-card texto-sensores">
-                O <span>AstraSync AI </span> utiliza sensores biométricos, neurofisiológicos e cognitivos para monitorar astronautas,
-                analisando saúde física, atividade cerebral e desempenho mental em tempo real
-            </p>
-        </div>
+            <div class="card3-secao2">
+                <h2 class="titulo-card3">Sensores</h2>
+                <p class="texto-card3">O <span>AstraSync AI</span> utiliza sensores biométricos, neurofisiológicos e cognitivos para monitorar astronautas, analisando saúde física, atividade cerebral e desempenho mental em tempo real.</p>
+            </div>
+        </div>   
     </section>
 
     <h1 class="numh1" id="cor3">3. Objetivo</h1>
@@ -134,39 +119,31 @@
         <div class="cards-container1">
             <div class="container">
                 <div class="card3">
-                    <h3>Fadiga Cognitiva</h3>
-                    <p>
-                        Queda progressiva no raciocínio e tempo de reação.
-                    </p>
+                    <h3>Monitorar saúde mental</h3>
+                    <p>Detectar fadiga e estresse em tempo real</p>
                 </div>
                 <div class="card3">
-                    <h3>Privação de Sono</h3>
-                    <p>
-                        Ciclos interrompidos afetam memória e foco.
-                    </p>
+                    <h3>Prevenir crises</h3>
+                    <p>Antecipar riscos antes que virem emergências</p>
                 </div>
             </div>
             
             <div class="container">
                 <div class="card3">
-                    <h3>Isolamento Social</h3>
-                    <p>
-                        Continuamento causa estresse psicológico severo.
-                    </p>
+                    <h3>Estimular cognição</h3>
+                    <p>Jogos que mantêm a mente ativa na missão</p>
                 </div>
                 <div class="card3">
-                    <h3>Risco Operacional</h3>
-                    <p>
-                        Falha humana causada por exaustão mental.
-                    </p>
+                    <h3>Automatizar alertas</h3>
+                    <p>Agir sem depender de operador humano</p>
                 </div>
             </div>
         </div>
 
         <div class="container2">
-            <div class="cardgrande1">
-                <h3>85%</h3>
-                <p>dos astronautas têm sintomas de ansiedade</p>
+            <div class="cardgrande3">
+                <h3>Funcionar de forma autônoma</h3>
+                <p>Operar sem sinal da Terra, com independência avançada de conexão</p>
             </div>
         </div>
 
@@ -177,27 +154,54 @@
             Quem a <span id="spancor2">AstraSync</span> vai proteger.
         </h2>
          <div class="container2">
-            <div class="cardgrande2">
-                <h3>85%</h3>
-                <p>dos astronautas têm sintomas de ansiedade</p>
-            </div>
-        </div>
-         <div class="container2">
-            <div class="cardgrande2">
-                <h3>85%</h3>
-                <p>dos astronautas têm sintomas de ansiedade</p>
-            </div>
-        </div>
-         <div class="container2">
-            <div class="cardgrande2">
-                <h3>85%</h3>
-                <p>dos astronautas têm sintomas de ansiedade</p>
+            <div class="cardgrande4">
+                <h3>Astronautas</h3>
+                <p>Tripulações em missões de longa duração para ISS, Lua e Marte</p>
             </div>
         </div>
         <div class="container2">
-            <div class="cardgrande2">
-                <h3>85%</h3>
-                <p>dos astronautas têm sintomas de ansiedade</p>
+            <div class="cardgrande4">
+                <h3>Pesquisadores espaciais</h3>
+                <p>Cientistas que estudam saúde mental e desempenho cognitivo no espaço</p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="cardgrande4">
+                <h3>Agências espaciais</h3>
+                <p>Organizações que planejam e executam missões de exploração espacial</p>
+            </div>
+        </div>
+
+
+        <div class="impacto">
+            <h2>Impacto estimado por grupo</h2>
+
+            <div class="grupo">
+                <span>Astronautas</span>
+
+                <div class="barra">
+                    <div class="progresso" style="width: 97%;"></div>
+                </div>
+
+                <span>97%</span>
+            </div>
+            <div class="grupo">
+                <span>Pesquisadores</span>
+
+                <div class="barra">
+                    <div class="progresso" style="width: 70%;"></div>
+                </div>
+                
+                <span>70%</span>
+            </div>
+            <div class="grupo">
+                <span>Agências</span>
+
+                <div class="barra">
+                    <div class="progresso" style="width: 86%;"></div>
+                </div>
+
+                <span>86%</span>
             </div>
         </div>
 
@@ -207,88 +211,83 @@
         <div class="cards-container1">
             <div class="container">
                 <div class="card5">
-                    <h3>Fadiga Cognitiva</h3>
-                    <p>Queda progressiva no raciocínio e tempo de reação.</p>
+                    <h3>Estímulo Cognitivo</h3>
+                    <p>Recomendações de atividades cognitivas para maior estímulo cerebral</p>
                 </div>
 
                 <div class="card5">
-                    <h3>Privação de Sono</h3>
-                    <p>Ciclos interrompidos afetam memória e foco.</p>
+                    <h3>Sistemas de alertas</h3>
+                    <p>Prevenção de falhas críticas e tomada de desição mais segura</p>
                 </div>
             </div>
 
             <div class="container">
                 <div class="card5">
-                    <h3>Isolamento Social</h3>
-                    <p>Continuamento causa estresse psicológico severo.</p>
+                    <h3>Menos estresse</h3>
+                    <p>Rotinas ajustadas automaticamente e redução da fadiga mental</p>
                 </div>
 
                 <div class="card5">
-                    <h3>Risco Operacional</h3>
-                    <p>Falha humana causada por exaustão mental.</p>
+                    <h3>Monitoramento 24/7</h3>
+                    <p>Acompanhamento psicológico em tempo real</p>
                 </div>
             </div>
         </div>
 
         <div class="container2">
             <div class="card5">
-                <h3>85%</h3>
-                <p>dos astronautas têm sintomas de ansiedade</p>
+                <h3>-40%</h3>
+                <p>Fadiga estimada</p>
             </div>
             <div class="card5">
-                <h3>43%</h3>
-                <p>desenvolvem sintomas de depressão</p>
+                <h3>+80%</h3>
+                <p>Tempo de foco</p>
             </div>
             <div class="card5">
-                <h3>4 de 6</h3>
-                <p>astronautas apresentaram problemas psicológicos</p>
+                <h3>4</h3>
+                <p>Jogos cognitivos</p>
             </div>
         </div>
 
         <h1 class="numh1" id="cor6">6. Aplicações no dia a dia</h1>
-        <h2 class="descricaoh2">O <span id="spancor6">AstraSync</span> tecnologia é altamente recomendada para diminuir os <span id="spancor6">índices de estresse </span>em diversas áreas do <span id="spancor6">dia a dia.</span></h2>
+        <h2 class="descricaoh2">O <span id="spancor6">AstraSync AI</span> faz parte do <span id="spancor6">dia a dia</span> dos astronautas, monitorando sua saúde e desempenho <span id="spancor6">continuamente.</span></h2>
         <div class="cards-container1">
             <div class="container">
                 <div class="card6">
-                    <h3>Fadiga Cognitiva</h3>
-                    <p>
-                        Queda progressiva no raciocínio e tempo de reação.
-                    </p>
+                    <h3>Sono e Recuperação</h3>
+                    <p>Monitoramento da qualidade do sono para reduzir fadiga e manter o desempenho da tripulação</p>
                 </div>
                 <div class="card6">
-                    <h3>Privação de Sono</h3>
-                    <p>
-                        Ciclos interrompidos afetam memória e foco.
-                    </p>
+                    <h3>Saúde Mental</h3>
+                    <p>Identificação precoce de estresse, ansiedade e sobrecarga emocional durante a missão</p>
                 </div>
             </div>
-            
             <div class="container">
                 <div class="card6">
-                    <h3>Isolamento Social</h3>
-                    <p>
-                        Continuamento causa estresse psicológico severo.
-                    </p>
+                    <h3>Operações da Missão</h3>
+                    <p>Acompanhamento do estado cognitivo para apoiar decisões críticas e tarefas complexas</p>
                 </div>
                 <div class="card6">
-                    <h3>Risco Operacional</h3>
-                    <p>
-                        Falha humana causada por exaustão mental.
-                    </p>
+                    <h3>Desempenho Cognitivo</h3>
+                    <p>Análise contínua de atenção, memória e tempo de reação em ambientes espaciais</p>
                 </div>
             </div>
         </div>
 
         <div class="container2">
             <div class="cardgrande6">
-                <h3>85%</h3>
-                <p>dos astronautas têm sintomas de ansiedade</p>
+                <h3>Monitoramento Integrado da Tripulação</h3>
+                <p>Avaliação em tempo real dos sinais físicos, mentais e emocionais para garantir segurança e eficiência durante toda a missão</p>
             </div>
         </div>
-        <h4>O AstraSync IA pode ser aplicado em missões especiais para monitorar astronautas continuamente, prever fadiga e ajustar rotinas automaticamente em tempo real.</h4>
 
+        <p class="texto-final">O AstraSync IA pode ser aplicado em missões especiais para monitorar astronautas continuamente, prever fadiga e ajustar rotinas automaticamente em tempo real.</p>
+     
     <footer>
-        <h5>oi</h5>
+        <h5><span>AstraSync</span> - &copy; Todos os direitos reservados - 2026</h5>
+        <h4>FIAP | Engenharia de Software</h4>
+        <h4>1ESPI | Lab-404</h4>
+        <h3>Desenvolvido por Arthur Fiorese - Rm 569578, Gustavo Silva - Rm 571675, Matheus Cunha - Rm 572780, Matheus Sequeira  - Rm 571127 e Felipe Moreira - Rm 573410</h3>
 
     </footer>
 
