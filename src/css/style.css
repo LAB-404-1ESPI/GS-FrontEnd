@@ -301,6 +301,7 @@ h2,h3{
     max-width: 350px;
     text-align:center;
     transition:0.3s;
+    cursor: pointer;
 }
 
 .card3:hover{
@@ -330,6 +331,7 @@ h2,h3{
     max-width: 730px;
     text-align:center;
     transition:0.3s;
+    cursor: pointer;
 }
 
 .cardgrande3 h3{
@@ -359,6 +361,7 @@ h2,h3{
     max-width: 730px;
     text-align:center;
     transition:0.3s;
+    cursor: pointer;
 }
 
 .cardgrande4 h3{
@@ -415,6 +418,7 @@ h2,h3{
     margin-left:auto;
     margin-top: 10px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .impacto h2{
@@ -439,6 +443,7 @@ h2,h3{
     max-width: 350px;
     text-align:center;
     transition:0.3s;
+    cursor: pointer;
 }
 
 .card5 h3{
@@ -464,6 +469,7 @@ h2,h3{
     max-width: 350px;
     text-align:center;
     transition:0.3s;
+    cursor: pointer;
 }
 
 .card6 h3{
@@ -487,6 +493,7 @@ h2,h3{
     max-width: 730px;
     text-align:center;
     transition:0.3s;
+    cursor: pointer;
 }
 
 .cardgrande6 h3{
