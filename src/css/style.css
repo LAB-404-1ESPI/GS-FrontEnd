@@ -119,6 +119,8 @@ header span{
  
 .imagembg{
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
     display: block;
     filter: brightness(0.4);
 }
@@ -302,7 +304,6 @@ header span{
     border: 3px solid var(--corsecao2);
     background-color: var(--bgcardred);
     border-radius: 20px;
-    width: 30%;
     padding: 10px;
     text-align: center;
     cursor: pointer;
@@ -339,7 +340,6 @@ header span{
     border: 3px solid var(--corsecao2);
     background-color: var(--bgcardred);
     border-radius: 20px;
-    width: 15%;
     padding: 10px;
     text-align: center;
     cursor: pointer;
@@ -376,7 +376,6 @@ header span{
     border: 3px solid var(--corsecao2);
     background-color: var(--bgcardred);
     border-radius: 20px;
-    width: 15%;
     padding: 10px;
     text-align: center;
     cursor: pointer;
@@ -403,6 +402,14 @@ header span{
    
 }
  
+.titulo-card1,
+.titulo-card2,
+.titulo-card3{
+    width: fit-content;
+    min-width: 220px;
+}
+
+
 footer{
     padding: 20px;
     background: var(--bg-header);
@@ -730,4 +737,258 @@ footer span{
         transform: translateY(0px);
     }
  
+}
+/* //////////////////////////////// */
+/* RESPONSIVIDADE */
+
+
+/* TABLETS */
+
+@media (max-width: 1024px){
+
+    header{
+        padding: 10px 20px;
+    }
+
+    header h1{
+        font-size: 28px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .texto-superior{
+        font-size: 32px;
+    }
+
+    .logo2{
+        width: 300px;
+    }
+
+    .texto-inferior{
+        margin-top: -80px;
+        font-size: 16px;
+    }
+
+    .numh1{
+        font-size: 40px;
+    }
+
+    .descricaoh2{
+        font-size: 22px;
+    }
+
+    .titulo-card1,
+    .titulo-card2,
+    .titulo-card3{
+        width: 50%;
+    }
+
+    .texto-card1,
+    .texto-card2,
+    .texto-card3{
+        font-size: 18px;
+    }
+
+    .texto-final{
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .fonte{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+/* CELULARES */
+
+@media (max-width: 768px){
+
+    header{
+        height: 90px;
+        padding: 10px 15px;
+    }
+
+    header h1{
+        font-size: 22px;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .menu-hamburguer{
+        width: 25px;
+        height: 20px;
+    }
+
+    .bloco-central{
+        width: 90%;
+        top: 45%;
+    }
+
+    .texto-superior{
+        font-size: 24px;
+        margin-top: 100px;
+    }
+
+    .logo2{
+        width: 200px;
+        margin-top: -30px;
+    }
+
+    .texto-inferior{
+        margin-top: -50px;
+        font-size: 14px;
+    }
+
+    .btn-missao{
+        width: 180px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .numh1{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .descricaoh2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .espacamentop{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .cards-container1,
+    .container,
+    .container2{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card1,
+    .card3,
+    .card5,
+    .card6,
+    .cardgrande3,
+    .cardgrande4,
+    .cardgrande6{
+        max-width: 90%;
+        padding: 30px;
+    }
+
+    .imagembg2{
+        padding: 20px;
+    }
+
+    .titulo-card1,
+    .titulo-card2,
+    .titulo-card3{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .texto-card1,
+    .texto-card2,
+    .texto-card3{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .impacto{
+        width: 90%;
+    }
+
+    .grupo{
+        flex-wrap: wrap;
+    }
+
+    .grupo span:first-child{
+        width: 100%;
+    }
+
+    .barra{
+        width: 100%;
+    }
+
+    .texto-final{
+        width: 90%;
+        font-size: 18px;
+    }
+
+    footer{
+        padding: 15px;
+    }
+
+    footer h3{
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    footer h4,
+    footer h5{
+        font-size: 13px;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 480px){
+
+    .texto-superior{
+        font-size: 20px;
+    }
+
+    .logo2{
+        width: 160px;
+    }
+
+    .texto-inferior{
+        font-size: 12px;
+    }
+
+    .numh1{
+        font-size: 28px;
+    }
+
+    .descricaoh2{
+        font-size: 18px;
+    }
+
+    .card1,
+    .card3,
+    .card5,
+    .card6,
+    .cardgrande3,
+    .cardgrande4,
+    .cardgrande6{
+        padding: 20px;
+    }
+
+    .icones,
+    .icones4,
+    .icones5,
+    .icones6{
+        width: 50px;
+    }
+
+    .texto-final{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
 }
