@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-const btnMissao = document.getElementById("btnMissao");
+const btnMissao = document.getElementById("btn-missao");
 
 btnMissao.addEventListener("click", function(event) {
     event.preventDefault();
