@@ -749,7 +749,7 @@ footer span{
  
 .menu-conteudo{
     width:100%;
-    padding-left:80px;
+    padding-left:5px;
     margin-top: 40px;
     display:flex;
     flex-direction:column;
@@ -823,7 +823,7 @@ footer span{
 .menu-logo{
     position:relative;
     top:auto;
-    left:30px;
+    left:0;
     width:120px;
     height:auto;
     z-index:10001;
@@ -890,7 +890,7 @@ footer span{
     color:var(--span);
     font-weight:700;
     letter-spacing:3px;
-    margin-left: -10px;
+    margin-left: -20px;
     margin-bottom: 60px;
     }
  
@@ -899,6 +899,7 @@ footer span{
     font-weight:200;
     letter-spacing:4px;
     margin-bottom: 60px;
+    margin-left: -10px;
     transition:.3s;
     position: relative;
     }
@@ -934,7 +935,7 @@ footer span{
         height: 20px;
     }
 
-    /* HERO */
+    /* HOME */
 
     .container-imagens{
         position: relative;
