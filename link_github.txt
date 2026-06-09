@@ -1,4 +1,4 @@
-LINK DO REPOSITÓRIO DO GITHUB:
+LINK DO REPOSITÓRIO DO GITHUB: https://github.com/LAB-404-1ESPI/GS-FrontEnd
 
 
-LINK GITHUB PAGES:
+LINK GITHUB PAGES: https://lab-404-1espi.github.io/GS-FrontEnd/
